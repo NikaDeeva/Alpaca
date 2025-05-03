@@ -1,0 +1,22 @@
+{
+  "name": "alpaca",
+  "version": "1.0.0",
+  "description": "WebSite to order an alpaca",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "Nika Dieieva",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.14.4",
+    "sass": "^1.87.0"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8"
+  },
+  "alias": {
+  "*.hbs": "*.handlebars"
+}
+}
