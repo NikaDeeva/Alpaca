@@ -2,8 +2,6 @@ body{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    color: $primary-text-color;
-    background-color: $second-text-color;
     font-size: 14px;
 }
 *,
@@ -23,7 +21,6 @@ ul,ol{
 a{
     text-decoration: none;
     cursor: pointer;
-    color: $title-text-color;
 }
 img{
     display: block;
