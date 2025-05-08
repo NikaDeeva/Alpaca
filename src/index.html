@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Alpaca</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,19 +11,471 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Neucha&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/main.min.css">
+
 </head>
 <body>
-    <include src="partials/header.html"></include>
-    <include src="partials/who.html"></include>
-    <include src="partials/owner.html"></include>
-    <include src="partials/benefits.html"></include>
-    <include src="partials/video.html"></include>
-    <include src="partials/wool.html"></include>
-    <include src="partials/buy.html"></include>
-    <include src="partials/choose.html"></include>
-    <include src="partials/gallery.html"></include>
-    <include src="partials/footer.html"></include>
+    <header class="container">
+        <div class="header__wrapper">
+        <div class="header__logo-wrap">
+            <a href="/src/index.html" class="header__logo">
+                <picture class="header__logo-icon">
+                    <source srcset="./images/png/logo@1x.png 1x, ./images/png/logo@2x.png 2x" type="image/png">
+                    <source srcset="./images/webp/logo@1x.webp 1x, ./images/webp/logo@2x.webp 2x" type="image/webp">
+                    <img src="./images/png/logo@1x.png" alt="logo">
+                </picture>
+            </a>
+        </div>
+            <nav class="header__nav">
+                <ul class="header__sections">
+                    <li class="header__item">
+                        <a class="header__link" href=".who">Who are alpacas?</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href=".benefitsl">Reasons to get</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href=".choose">Choose a pet</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href=".gallery">Gallery</a>
+                    </li>
+                </ul>
+                <ul class="header__langs">
+                    <li class="header__lang">
+                        <button class="header__lang-btn" id="eng">ENG</button>
+                    </li>
+                    <li class="header__lang">
+                        <button class="header__lang-btn" id="ua">UA</button>
+                    </li>
+                </ul>
+                <div class="header__phone-wrap">
+                        <svg class="header__icon">
+                            <use href="./images/symbol-defs.svg#icon-phone"></use>
+                        </svg>
+                        +380669547896    
+                </div>
+        </nav>
+    </div>
+        <h2 class="header__title">Alpacas</h2>
+        <span class="header__description">Sale of a wonderfull animal</span>
+        <div class="header__buttons">
+            <button class="header__button">More info</button>
+            <div class="header__video">
+                <svg>
+                    <use href="./images/symbol-defs.svg#icon-play"></use>
+                </svg>
+                Video about alpaca
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="who container">
+            <h2 class="who__title">Who are alpacas?</h2>
+            <div class="who__wrapper">
+                <div class="who__image-wrap">
+                    <picture class="who__image">
+                        <source srcset="./images/png/who@1x.png 1x, ./images/png/who@2x.png 2x" type="image/png">
+                        <source srcset="./images/webp/who@1x.webp 1x, ./images/webp/who@2x.webp 2x" type="image/webp">
+                        <img src="./images/png/who@1x.png" alt="logo">
+                    </picture>
+                </div>
+                <div class="who__info">
+                    <p class="who__text">Alpaca is a South American domestic animal of the camelid family. Alpacas live in the Andes at an altitude of 3,500-5,000 meters, in the territory of Ecuador, southern Peru, northern Chile and western Bolivia. These creatures were domesticated about 6,000 years ago by the Indians of Peru. First of all, alpacas are valued for their wool, from which blankets, clothing and much more are made.</p>
+                    <ul class="who__list">
+                        <li class="who__item">
+                            <p class="who__subtitle">Wool</p>
+                            <span class="who__data">24 natural shades</span>
+                        </li>
+                        <li class="who__item">
+                            <p class="who__subtitle">Lifetime</p>
+                            <span class="who__data">About 25 years</span>
+                        </li>
+                        <li class="who__item">
+                            <p class="who__subtitle">Weight</p>
+                            <span class="who__data">About 70 kg</span>
+                        </li>
+                        <li class="who__item">
+                            <p class="who__subtitle">Main quality</p>
+                            <span class="who__data">Nobility</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="owner container">
+            <h2 class="owner__title">
+                Become an owner of the wonderfull animal!
+            </h2>
+            <button class="owner__button">Wanna alpaca!</button>
+        </section>
+        <section class="benefits container">
+            <h2 class="benefits__title">Why buy an alpaca?</h2>
+            <ul class="benefits__list">
+                <li class="benefits__item" id="one">
+                    <picture class="benefits__one">
+                        <source srcset="./images/png/toy@1x.png 1x, ./images/png/toy@2x.png 2x" type="image/png">
+                        <source srcset="./images/webp/toy@1x.webp 1x, ./images/webp/toy@2x.webp 2x" type="image/webp">
+                        <img src="./images/png/toy@1x.png" alt="toy">
+                    </picture>
+                </li>
+                <li class="benefits__item" id="two">
+                    <h3 class="benefits__subtitle">Valuable wool</h3>
+                    <p class="benefits__text">It is distinguished by its purity, fine fiber and strength.</p>
+                    <picture class="benefits__two">
+                        <source srcset="./images/png/brown@1x-min.png 1x, ./images/png/brown@2x-min.png 2x" type="image/png">
+                        <source srcset="./images/webp/brown@1x.webp 1x, ./images/webp/brown@2x.webp 2x" type="image/webp">
+                        <img src="./images/png/brown@1x-min.png" alt="brown">
+                    </picture>
+                </li>
+                <li class="benefits__item" id="three">
+                    <picture class="benefits__three">
+                        <source srcset="./images/png/white@1x.png 1x, ./images/png/white@2x.png 2x" type="image/png">
+                        <source srcset="./images/webp/white@1x.webp 1x, ./images/webp/white@2x.webp 2x" type="image/webp">
+                        <img src="./images/png/white@1x.png" alt="white">
+                    </picture>
+                    <h3 class="benefits__subtitle">Simple care and maintenance</h3>
+                    <p class="benefits__text">It is necessary to provide them with food, water and build a pen with a canopy or provide other shelter (clean, unheated room) in case of bad weather.</p>
+                </li>
+                <li class="benefits__item" id="four">
+                    <h3 class="benefits__subtitle">Alive toy</h3>
+                    <p class="benefits__text">Alpacas get along wonderfully with people, can participate in games with disabled children, and brighten up the loneliness of elderly people.</p>
+                    <picture class="benefits__four">
+                        <source srcset="./images/png/child@1x-min.png 1x, ./images/png/child@2x-min.png 2x" type="image/png">
+                        <source srcset="./images/webp/child@1x.webp 1x, ./images/webp/child@2x.webp 2x" type="image/webp">
+                        <img src="./images/png/child@1x-min.png" alt="child">
+                    </picture>
+                </li>
+                <li class="benefits__item" id="five">
+                    <picture class="benefits__three">
+                        <source srcset="./images/png/two@1x.png 1x, ./images/png/two@2x.png 2x" type="image/png">
+                        <source srcset="./images/webp/two@1x.webp 1x, ./images/webp/two@2x.webp 2x" type="image/webp">
+                        <img src="./images/png/two@1x.png" alt="white">
+                    </picture>
+                    <h3 class="benefits__subtitle">Friendly and cute pet</h3>
+                    <p class="benefits__text">Alpaca is a cute and funny animal that you can spend time with, forgetting about your problems and worries. By purchasing an alpaca, you acquire a positive friend who can give you a smile every day.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="video container">
+            <div class="video__wrap">
+                <picture class="benefits__three">
+                    <source srcset="./images/png/video@1x.png 1x, ./images/png/video@2x.png 2x" type="image/png">
+                    <source srcset="./images/webp/video@1x.webp 1x, ./images/webp/video@2x.webp 2x" type="image/webp">
+                    <img src="./images/png/video@1x.png" alt="white">
+                </picture>
+            </div>
+            <div class="video__button">
+                <button class="video__btn">
+                    <svg class="video__triangle">
+                        <use href="./images/triangle.svg"></use>
+                    </svg>
+                </button>
+            </div>
+        </section>
+        <section class="wool container">
+            <h2 class="wool__title">What is the value of alpaca wool?</h2>
+            <div class="wool__wrap">
+                <div class="wool__item">
+                    <h3 class="wool__subtitle">Color range</h3>
+                    <p class="wool__text">Alpaca wool comes in 24 natural shades, from pure white, traditional beige or silver to brown and even black.</p>
+                </div>
+                <div class="wool__item">
+                    <h3 class="wool__subtitle">Hypoallergenic</h3>
+                    <p class="wool__text">Alpaca wool fiber does not contain lanolin, making it hypoallergenic.</p>
+                </div>
+                <div class="wool__item">
+                    <h3 class="wool__subtitle">Designers' love</h3>
+                    <p class="wool__text">Designer Giorgio Armani used alpaca suri wool in fashionable men's and women's suits.</p>
+                </div>
+                <div class="wool__item">
+                    <h3 class="wool__subtitle">Sportman`s love</h3>
+                    <p class="wool__text">Sports enthusiasts recognize that alpaca products are lighter and warmer, more comfortable in cold weather, so sportswear and outerwear manufacturers are starting to buy more alpaca products.</p>
+                </div>
+                <div class="wool__item">
+                    <h3 class="wool__subtitle">Quality products</h3>
+                    <p class="wool__text">The main advantage of alpaca wool products is that they practically do not form pellets - long fibers prevent felting</p>
+                </div>
+                <div class="wool__item">
+                    <h3 class="wool__subtitle">Subtlety and lightness</h3>
+                    <p class="wool__text">It does not retain water, is warm even when wet, and can effectively resist solar radiation.</p>
+                </div>
+                <div class="wool__item">
+                    <h3 class="wool__subtitle">Strength</h3>
+                    <p class="wool__text">Alpaca wool is three times stronger and seven times warmer than sheep's wool.</p>
+                </div>
+            </div>
+        </section>
+        <section class="buy container">
+            <h2 class="buy__title">Hurry up to buy your pet at the best price!</h2>
+            <button class="buy__button">Buy alpaca</button>
+            <div class="buy__image-wrap">
+                <picture class="buy__image">
+                    <source srcset="./images/png/buy@1x-min.png 1x, ./images/png/buy@2x-min.png 2x" type="image/png">
+                    <source srcset="./images/webp/buy@1x.webp 1x, ./images/webp/buy@2x.webp 2x" type="image/webp">
+                    <img src="./images/png/buy@1x-min.png" alt="buy">
+                </picture>
+            </div>
+        </section>
+        <section class="choose container">
+            <h2 class="choose__title">Choose your friend!</h2>
+            <ul class="choose__list">
+                <li class="choose__item" id="max">
+                    <picture class="choose__image">
+                        <source srcset="./images/png/max@1x.png 1x, ./images/png/max@2x.png 2x" type="image/png">
+                        <source srcset="./images/webp/max@1x.webp 1x, ./images/webp/max@2x.webp 2x" type="image/webp">
+                        <img src="./images/png/max@1x.png" alt="max">
+                    </picture>
+                    <ul class="choose__characteristics">
+                        <li class="choose__subitem">
+                            <p class="choose__charact">Name</p>
+                            <span class="choose__data">Max</span>
+                        </li>
+                        <li class="choose__subitem">
+                            <p class="choose__charact">Age</p>
+                            <span class="choose__data">6 years</span>
+                        </li>
+                        <li class="choose__subitem">
+                            <p class="choose__charact">Type</p>
+                            <span class="choose__data">Sury</span>
+                        </li>
+                        <li class="choose__subitem">
+                            <p class="choose__charact">Characteristic</p>
+                            <span class="choose__data">Favourite dish - hay</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="choose__link">Watch photos of Max</a>
+                    <div class="choose__btn-wrap">
+                        <button class="choose__button">Wanna Max!</button>
+                    </div>
+                </li>
+                <li class="choose__item" id="liana">
+                    <picture class="choose__image">
+                        <source srcset="./images/png/liana@1x.png 1x, ./images/png/liana@2x.png 2x" type="image/png">
+                        <source srcset="./images/webp/liana@1x.webp 1x, ./images/webp/liana@2x.webp 2x" type="image/webp">
+                        <img src="./images/png/liana@1x.png" alt="liana">
+                    </picture>
+                    <ul class="choose__characteristics">
+                        <li class="choose__subitem">
+                            <p class="choose__charact">Name</p>
+                            <span class="choose__data">Liana</span>
+                        </li>
+                        <li class="choose__subitem">
+                            <p class="choose__charact">Age</p>
+                            <span class="choose__data">3,5 years</span>
+                        </li>
+                        <li class="choose__subitem">
+                            <p class="choose__charact">Type</p>
+                            <span class="choose__data">Suri</span>
+                        </li>
+                        <li class="choose__subitem">
+                            <p class="choose__charact">Characteristic</p>
+                            <span class="choose__data">Loves children</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="choose__link">Watch photos of Liana</a>
+                    <div class="choose__btn-wrap">
+                        <button class="choose__button">Wanna Liana!</button>
+                    </div>
+                </li>
+                <li class="choose__item" id="christian">
+                    <picture class="choose__image">
+                        <source srcset="./images/png/christian@1x-min.png 1x, ./images/png/christian@2x-min.png 2x" type="image/png">
+                        <source srcset="./images/webp/christian@1x.webp 1x, ./images/webp/christian@2x.webp 2x" type="image/webp">
+                        <img src="./images/png/christian@1x-min.png" alt="christian">
+                    </picture>
+                    <ul class="choose__characteristics">
+                        <li class="choose__subitem">
+                            <p class="choose__charact">Name</p>
+                            <span class="choose__data">Christian</span>
+                        </li>
+                        <li class="choose__subitem">
+                            <p class="choose__charact">Age</p>
+                            <span class="choose__data">2 years</span>
+                        </li>
+                        <li class="choose__subitem">
+                            <p class="choose__charact">Type</p>
+                            <span class="choose__data">Wakaya</span>
+                        </li>
+                        <li class="choose__subitem">
+                            <p class="choose__charact">Characteristic</p>
+                            <span class="choose__data">Adores photosessions</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="choose__link">Watch photos of Christian</a>
+                    <div class="choose__btn-wrap">
+                        <button class="choose__button">Wanna Christian!</button>
+                    </div>
+                </li>
+                <li class="choose__item" id="richi">
+                    <picture class="choose__image">
+                        <source srcset="./images/png/richi@1x.png 1x, ./images/png/richi@2x.png 2x" type="image/png">
+                        <source srcset="./images/webp/richi@1x.webp 1x, ./images/webp/richi@2x.webp 2x" type="image/webp">
+                        <img src="./images/png/richi@1x.png" alt="richi">
+                    </picture>
+                    <ul class="choose__characteristics">
+                        <li class="choose__subitem">
+                            <p class="choose__charact">Name</p>
+                            <span class="choose__data">Richi</span>
+                        </li>
+                        <li class="choose__subitem">
+                            <p class="choose__charact">Age</p>
+                            <span class="choose__data">1,5 years</span>
+                        </li>
+                        <li class="choose__subitem">
+                            <p class="choose__charact">Type</p>
+                            <span class="choose__data">Suri</span>
+                        </li>
+                        <li class="choose__subitem">
+                            <p class="choose__charact">Characteristic</p>
+                            <span class="choose__data">Very playful</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="choose__link">Watch photos of Richi</a>
+                    <div class="choose__btn-wrap">
+                        <button class="choose__button">Wanna Richi!</button>
+                    </div>
+                </li>
+                <li class="choose__item" id="lilian">
+                    <picture class="choose__image">
+                        <source srcset="./images/png/lilian@1x.png 1x, ./images/png/lilian@2x.png 2x" type="image/png">
+                        <source srcset="./images/webp/lilian@1x.webp 1x, ./images/webp/lilian@2x.webp 2x" type="image/webp">
+                        <img src="./images/png/lilian@1x.png" alt="lilian">
+                    </picture>
+                    <ul class="choose__characteristics">
+                        <li class="choose__subitem">
+                            <p class="choose__charact">Name</p>
+                            <span class="choose__data">Lilian</span>
+                        </li>
+                        <li class="choose__subitem">
+                            <p class="choose__charact">Age</p>
+                            <span class="choose__data">4 years</span>
+                        </li>
+                        <li class="choose__subitem">
+                            <p class="choose__charact">Type</p>
+                            <span class="choose__data">Wakaya</span>
+                        </li>
+                        <li class="choose__subitem">
+                            <p class="choose__charact">Characteristic</p>
+                            <span class="choose__data">Loves dance with Scorpions</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="choose__link">Watch photos of Lilian</a>
+                    <div class="choose__btn-wrap">
+                        <button class="choose__button">Wanna Lilian!</button>
+                    </div>
+                </li>
+                <li class="choose__item" id="businka">
+                    <picture class="choose__image">
+                        <source srcset="./images/png/businka@1x-min.png 1x, ./images/png/businka@2x-min.png 2x" type="image/png">
+                        <source srcset="./images/webp/businka@1x.webp 1x, ./images/webp/businka@2x.webp 2x" type="image/webp">
+                        <img src="./images/png/businka@1x-min.png" alt="businka">
+                    </picture>
+                    <ul class="choose__characteristics">
+                        <li class="choose__subitem">
+                            <p class="choose__charact">Name</p>
+                            <span class="choose__data">Businka</span>
+                        </li>
+                        <li class="choose__subitem">
+                            <p class="choose__charact">Age</p>
+                            <span class="choose__data">2,5 years</span>
+                        </li>
+                        <li class="choose__subitem">
+                            <p class="choose__charact">Type</p>
+                            <span class="choose__data">Suri</span>
+                        </li>
+                        <li class="choose__subitem">
+                            <p class="choose__charact">Characteristic</p>
+                            <span class="choose__data">Loves hugs</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="choose__link">Watch photos of Businka</a>
+                    <div class="choose__btn-wrap">
+                        <button class="choose__button">Wanna Businka!</button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="gallery container">
+            <div class="gallery">
+                <div class="gallery__track">
+                  <div class="gallery__slide">
+                    <picture class="gallery__image">
+                        <source srcset="./images/png/gallery-two@1x-min.png 1x, ./images/png/gallery-two@2x-min.png 2x" type="image/png">
+                        <source srcset="./images/webp/gallery-two@1x.webp 1x, ./images/webp/gallery-two@2x.webp 2x" type="image/webp">
+                        <img src="./images/png/gallery-two@1x-min.png" alt="max">
+                    </picture>
+                  </div>
+                  <div class="gallery__slide">
+                    <picture class="gallery__image">
+                        <source srcset="./images/png/gallery-one@1x-min.png 1x, ./images/png/gallery-one@2x-min.png 2x" type="image/png">
+                        <source srcset="./images/webp/gallery-one@1x.webp 1x, ./images/webp/gallery-one@2x.webp 2x" type="image/webp">
+                        <img src="./images/png/gallery-one@1x-min.png" alt="max">
+                    </picture>
+                  </div>
+                  <div class="gallery__slide">
+                    <picture class="gallery__image">
+                        <source srcset="./images/png/gallery-three@1x-min.png 1x, ./images/png/gallery-three@2x-min.png 2x" type="image/png">
+                        <source srcset="./images/webp/gallery-three@1x.webp 1x, ./images/webp/gallery-three@2x.webp 2x" type="image/webp">
+                        <img src="./images/png/gallery-three@1x-min.png" alt="max">
+                    </picture>
+                  </div>
+                </div>
+                
+                <button class="gallery__btn gallery__btn-prev">←</button>
+                <button class="gallery__btn gallery__btn-next">→</button>
+        </section>
+    </main>
+    <footer class="container">
+        <div class="footer__logo-wrap">
+            <a href="/src/index.html" class="footer__logo">
+                <picture class="footer__logo-icon">
+                    <source srcset="./images/png/logo@1x.png 1x, ./images/png/logo@2x.png 2x" type="image/png">
+                    <source srcset="./images/webp/logo@1x.webp 1x, ./images/webp/logo@2x.webp 2x" type="image/webp">
+                    <img src="./images/png/logo@1x.png" alt="logo">
+                </picture>
+            </a>
+        </div>
+        <ul class="footer__list">
+            <li class="footer__item">
+                <a href="#" class="footer__link">About us</a>
+            </li>
+            <li class="footer__item">
+                <a href="#" class="footer__link">Articles</a>
+            </li>
+            <li class="footer__item">
+                <a href="#" class="footer__link">Licences</a>
+            </li>
+        </ul>
+        <div class="footer__contacts">
+            <h3 class="footer__contacts-title">Contacts:</h3>
+            <p class="footer__phone">+38(099) 369 85 74</p>
+            <p class="footer__phone">+38(097) 369 85 74</p>
+            <a href="#" class="footer__mail">alpaca_happy@gmail.com</a>
+        </div>
+        <ul class="footer__icons">
+            <li class="footer__icon-item">
+                <a href="#" class="footer__icon-link">
+                    <svg>
+                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="footer__icon-item">
+                <a href="#" class="footer__icon-link">
+                    <svg>
+                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="footer__icon-item">
+                <a href="#" class="footer__icon-link">
+                    <svg>
+                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </footer>
     
     <script src="./index.js" type="module"></script>
 </body>
