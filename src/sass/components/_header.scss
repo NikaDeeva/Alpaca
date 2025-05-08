@@ -1,0 +1,17 @@
+.header{
+    padding-top: 26px;
+    padding-bottom: 102px;
+    background-color: #f1b400;;
+    &__wrapper{
+        display: flex;
+    }
+    &__nav{
+        display: flex;
+    }
+    &__sections{
+        display: flex;
+    }
+    &__phone-wrap{
+        display: flex;
+    }
+}
