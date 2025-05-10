@@ -40,10 +40,143 @@ img {
 .header {
   background-color: #f1b400;
   padding-top: 26px;
-  padding-bottom: 102px;
+  padding-bottom: 72px;
 }
 
-.header__wrapper, .header__nav, .header__sections, .header__phone-wrap {
+.header__info {
+  background-image: url("header@1x-min.acd03ada.png");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: 804px;
+  margin-top: 30px;
+  overflow: visible;
+}
+
+.header__wrapper {
+  justify-content: space-between;
   display: flex;
+}
+
+.header__logo-wrap {
+  width: 88px;
+}
+
+.header__nav {
+  justify-content: space-between;
+  display: flex;
+}
+
+.header__sections {
+  justify-content: space-around;
+  margin-right: 100px;
+  display: flex;
+}
+
+.header__item {
+  margin: 15px;
+}
+
+.header__link {
+  color: #fff;
+  cursor: pointer;
+  font-family: Neucha, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.header__link:hover {
+  text-decoration: underline;
+}
+
+.header__langs {
+  flex-direction: column;
+  align-items: center;
+  margin-right: 70px;
+  display: flex;
+}
+
+.header__lang-btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #0000;
+  border: none;
+  font-family: Neucha, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.header__lang-btn:hover {
+  text-decoration: underline;
+}
+
+.header__phone-wrap {
+  color: #fff;
+  cursor: pointer;
+  justify-content: center;
+  margin-top: 15px;
+  font-family: Neucha, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  display: flex;
+}
+
+.header__phone-wrap:hover {
+  text-decoration: underline;
+}
+
+.header__icon {
+  fill: #fff;
+  width: 31px;
+  height: 31px;
+  margin-right: 10px;
+}
+
+.header__title {
+  color: #fff;
+  margin-bottom: 47px;
+  font-family: Neucha, sans-serif;
+  font-size: 150px;
+  font-weight: 400;
+}
+
+.header__description {
+  color: #fff;
+  font-family: Neucha, sans-serif;
+  font-size: 70px;
+  font-weight: 400;
+}
+
+.header__buttons {
+  margin-top: 50px;
+  display: flex;
+}
+
+.header__button {
+  color: #fff;
+  background-color: #e2461f;
+  border: none;
+  border-radius: 10px;
+  padding: 23px 66px;
+  font-family: Neucha, sans-serif;
+  font-size: 39px;
+  font-weight: 400;
+}
+
+.header__video {
+  color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 107px;
+  font-family: Neucha, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+}
+
+.header__video-icon {
+  fill: #fff;
+  width: 35px;
+  height: 35px;
 }
 /*# sourceMappingURL=Alpaca.9f367d21.css.map */

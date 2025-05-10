@@ -1,17 +1,122 @@
 .header{
     padding-top: 26px;
-    padding-bottom: 102px;
-    background-color: #f1b400;;
+    padding-bottom: 72px;
+    background-color: #f1b400;
+   &__info{
+    margin-top: 30px;
+    background-image: url(/src/images/png/header@1x-min.png);
+    background-position: right;
+    background-size: 804px;
+    background-repeat: no-repeat;
+    overflow: visible;
+   }
     &__wrapper{
         display: flex;
+        justify-content: space-between;
+    }
+    &__logo-wrap{
+        width: 88px;
     }
     &__nav{
         display: flex;
+        justify-content: space-between;
     }
     &__sections{
         display: flex;
+        justify-content: space-around;
+        margin-right: 100px;
+    }
+    &__item{
+        margin: 15px;
+    }
+    &__link{
+        font-family: "Neucha", sans-serif;
+font-weight: 400;
+font-size: 24px;
+color: #fff;
+cursor: pointer;
+&:hover{
+    text-decoration: underline;
+}
+    }
+    &__langs{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-right: 70px;
+    }
+    &__lang-btn{
+        background-color: transparent;
+        border: none;
+        font-family: "Neucha", sans-serif;
+font-weight: 400;
+font-size: 24px;
+color: #fff;
+cursor: pointer;
+&:hover{
+    text-decoration: underline;
+}
     }
     &__phone-wrap{
         display: flex;
+        justify-content: center;
+        font-family: "Neucha", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        color: #fff;
+        cursor: pointer;
+        margin-top: 15px;
+        &:hover{
+            text-decoration: underline;
+        }
     }
+    &__icon{
+width: 31px;
+height: 31px;
+fill: #fff;
+margin-right: 10px;
+    }
+    &__title{
+        font-weight: 400;
+font-size: 150px;
+color: #fff;
+font-family: "Neucha", sans-serif;
+margin-bottom: 47px;
+    }
+    &__description{
+        font-weight: 400;
+font-size: 70px;
+color: #fff;
+font-family: "Neucha", sans-serif;
+    }
+    &__buttons{
+        display: flex;
+        margin-top: 50px;
+    }
+    &__button{
+        font-family: "Neucha", sans-serif;
+        font-weight: 400;
+        font-size: 39px;
+        color: #fff;
+        padding: 23px 66px;
+        border: none;
+        border-radius: 10px;
+        background-color: #E2461F;
+    }
+    &__video{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: "Neucha", sans-serif;
+        font-weight: 400;
+font-size: 20px;
+color: #fff;
+margin-left: 107px;
+    }
+    &__video-icon{
+    width: 35px;
+    height: 35px;    
+    fill: #fff;
+}
 }
