@@ -1,0 +1,1 @@
+{"mappings":"","sources":["src/index.js","src/js/alpaca.js","src/js/form.js","src/js/slider.js","src/js/language.js"],"sourcesContent":["import './js/alpaca';\r\nimport './js/form';\r\nimport './js/slider';\r\nimport './js/language';\r\nimport './sass/main.scss';\r\n","","","",""],"names":[],"version":3,"file":"Alpaca.28c5b725.js.map"}
