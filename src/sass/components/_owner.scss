@@ -1,0 +1,31 @@
+.owner{
+    padding-top: 92px;
+    padding-bottom: 169px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+      background-image: url(/src/images/png/owner@1x.png), url(/src/images/png/owner-back@1x.png);
+        background-repeat: no-repeat, no-repeat;
+        background-size: 257px, cover;
+        background-position: top right, center;
+    &__title{
+        font-family: "Neucha", sans-serif;
+font-weight: 400;
+font-size: 60px;
+line-height: 140%;
+color: #333;
+max-width: 448px;
+    }
+    &__button{
+        font-family: "Neucha", sans-serif;
+        font-weight: 400;
+        font-size: 39px;
+        color: #fff;
+        padding: 18px 66px;
+        border: none;
+        border-radius: 50px;
+        background-color: #E2461F;
+        max-height: 80px;
+        cursor: pointer;
+    }
+}

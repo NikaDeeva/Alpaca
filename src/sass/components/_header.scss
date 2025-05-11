@@ -100,13 +100,14 @@ font-family: "Neucha", sans-serif;
         color: #fff;
         padding: 23px 66px;
         border: none;
-        border-radius: 10px;
+        border-radius: 50px;
         background-color: #E2461F;
+        cursor: pointer;
     }
     &__video{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         font-family: "Neucha", sans-serif;
         font-weight: 400;
@@ -118,5 +119,6 @@ margin-left: 107px;
     width: 35px;
     height: 35px;    
     fill: #fff;
+    cursor: pointer;
 }
 }
