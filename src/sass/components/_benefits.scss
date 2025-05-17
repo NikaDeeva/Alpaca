@@ -1,0 +1,81 @@
+.benefits{
+    padding-top: 107px;
+    padding-bottom: 140px;
+     &__title-wrap{
+        background-image: url(/src/images/png/title-back@1x.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        padding-top: 56px;
+        padding-bottom: 92px;
+    }
+    &__title{
+        font-weight: 400;
+font-size: 60px;
+color: #333;
+ font-family: "Neucha", sans-serif;
+ text-align: center;
+    }
+    &__list{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        padding-left: 200px;
+    }
+    &__item{
+        margin: 15px;
+    }
+    &__subtitle{
+        font-family: "Montserrat", sans-serif;
+font-weight: 700;
+font-size: 26px;
+color: #333;
+padding-bottom: 9px;
+max-width: 245px;
+    }
+    &__text{
+        font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+color: #333;
+padding-bottom: 17px;
+max-width: 245px;
+&:last-child{
+    max-width: 275px;
+}
+    }
+    &__one{
+        max-width: 600px;
+    }
+    #three{
+        display: flex;
+        flex-direction: column;
+    }
+    &__two{
+        max-width: 300px;
+    }
+    &__three{
+        max-width: 300px;
+        margin-bottom: 23px;
+    }
+    #four{
+        display: flex;
+    }
+    &__four{
+        max-width: 300px;
+        margin-left: 31px;
+    }
+     #five{
+        position: relative;
+        display: flex;
+        bottom: 75px;
+    }
+    &__five{
+        max-width: 280px;
+    }
+    &__info{
+        margin-left: 30px;
+    }
+}

@@ -312,4 +312,102 @@ img {
   background-color: #E2461F;
   max-height: 80px;
   cursor: pointer;
+}
+
+.benefits {
+  padding-top: 107px;
+  padding-bottom: 140px;
+}
+.benefits__title-wrap {
+  background-image: url(/src/images/png/title-back@1x.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding-top: 56px;
+  padding-bottom: 92px;
+}
+.benefits__title {
+  font-weight: 400;
+  font-size: 60px;
+  color: #333;
+  font-family: "Neucha", sans-serif;
+  text-align: center;
+}
+.benefits__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-left: 200px;
+}
+.benefits__item {
+  margin: 15px;
+}
+.benefits__subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: #333;
+  padding-bottom: 9px;
+  max-width: 245px;
+}
+.benefits__text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #333;
+  padding-bottom: 17px;
+  max-width: 245px;
+}
+.benefits__text:last-child {
+  max-width: 275px;
+}
+.benefits__one {
+  max-width: 600px;
+}
+.benefits #three {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.benefits__two {
+  max-width: 300px;
+}
+.benefits__three {
+  max-width: 300px;
+  margin-bottom: 23px;
+}
+.benefits #four {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.benefits__four {
+  max-width: 300px;
+  margin-left: 31px;
+}
+.benefits #five {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  bottom: 75px;
+}
+.benefits__five {
+  max-width: 280px;
+}
+.benefits__info {
+  margin-left: 30px;
 }/*# sourceMappingURL=main.css.map */
