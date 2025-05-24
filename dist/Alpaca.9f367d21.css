@@ -396,4 +396,53 @@ img {
 .benefits__info {
   margin-left: 30px;
 }
+
+.video {
+  background-image: url("video-back@1x.2e8cc423.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 66px;
+  padding-bottom: 66px;
+  position: relative;
+}
+
+.video__wrap {
+  width: 848px;
+  margin: 0 auto;
+}
+
+.video__btn {
+  background-color: #e2461f;
+  background-image: url("triangle.712dc535.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 10px;
+  padding: 30px 50px;
+  position: absolute;
+  bottom: 275px;
+  left: 550px;
+}
+
+.wool {
+  padding-top: 107px;
+  padding-bottom: 140px;
+}
+
+.wool__title-wrap {
+  background-image: url("title-back@1x.0b3936ba.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 56px;
+  padding-bottom: 92px;
+}
+
+.wool__title {
+  color: #333;
+  text-align: center;
+  font-family: Neucha, sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+}
 /*# sourceMappingURL=Alpaca.9f367d21.css.map */
