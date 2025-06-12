@@ -455,4 +455,88 @@ img {
   color: #333;
   font-family: "Neucha", sans-serif;
   text-align: center;
+}
+.wool__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.wool__item {
+  max-width: 330px;
+}
+.wool__subtitle-wrap {
+  background-image: url(/src/images/png/wool-back@1x.png);
+  background-repeat: no-repeat;
+  background-size: 330px;
+  background-position: bottom;
+  width: 330px;
+}
+.wool__subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 140%;
+  color: #333;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+  max-width: 230px;
+}
+.wool__text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #333;
+  max-width: 400px;
+}
+.wool__one {
+  margin-top: 80px;
+}
+.wool__three {
+  margin-top: 50px;
+}
+.wool__four {
+  margin-top: 50px;
+}
+
+.buy {
+  background-image: url(/src/images/png/buy-back@1x-min.png), url(/src/images/png/buy@1x-min.png);
+  background-size: contain, 278px;
+  background-position: bottom, right;
+  background-repeat: no-repeat, no-repeat;
+  background-color: #f1b400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 200px;
+  padding-left: 75px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.buy__title {
+  font-family: "Neucha", sans-serif;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 140%;
+  color: #fff;
+  margin-top: 42px;
+  margin-right: 200px;
+}
+.buy__button {
+  font-family: "Neucha", sans-serif;
+  font-weight: 400;
+  font-size: 39px;
+  color: #fff;
+  padding: 23px 66px;
+  border: none;
+  border-radius: 50px;
+  background-color: #E2461F;
+  cursor: pointer;
+  max-height: 80px;
 }/*# sourceMappingURL=main.css.map */

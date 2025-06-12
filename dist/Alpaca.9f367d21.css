@@ -445,4 +445,86 @@ img {
   font-size: 60px;
   font-weight: 400;
 }
+
+.wool__wrap {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  display: flex;
+}
+
+.wool__item {
+  max-width: 330px;
+}
+
+.wool__subtitle-wrap {
+  background-image: url("wool-back@1x.ec1ebc8b.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 330px;
+  width: 330px;
+}
+
+.wool__subtitle {
+  color: #333;
+  max-width: 230px;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  font-family: Montserrat, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.wool__text {
+  color: #333;
+  max-width: 400px;
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.wool__one {
+  margin-top: 80px;
+}
+
+.wool__three, .wool__four {
+  margin-top: 50px;
+}
+
+.buy {
+  background-color: #f1b400;
+  background-image: url("buy-back@1x-min.0efd4d8a.png"), url("buy@1x-min.8280f1c8.png");
+  background-position: bottom, 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, 278px;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 200px;
+  padding-left: 75px;
+  display: flex;
+}
+
+.buy__title {
+  color: #fff;
+  margin-top: 42px;
+  margin-right: 200px;
+  font-family: Neucha, sans-serif;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.buy__button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #e2461f;
+  border: none;
+  border-radius: 50px;
+  max-height: 80px;
+  padding: 23px 66px;
+  font-family: Neucha, sans-serif;
+  font-size: 39px;
+  font-weight: 400;
+}
 /*# sourceMappingURL=Alpaca.9f367d21.css.map */

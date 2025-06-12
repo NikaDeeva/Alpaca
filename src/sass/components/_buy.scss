@@ -1,0 +1,35 @@
+.buy{
+    background-image: url(/src/images/png/buy-back@1x-min.png), url(/src/images/png/buy@1x-min.png);
+    background-size: contain, 278px;
+    background-position: bottom, right;
+    background-repeat: no-repeat, no-repeat;
+    background-color: #f1b400;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    padding-left: 75px;
+    align-items: center;
+    &__title{
+        font-family: "Neucha", sans-serif;
+font-weight: 400;
+font-size: 46px;
+line-height: 140%;
+color: #fff;
+margin-top: 42px;
+margin-right: 200px;
+    }
+       &__button{
+        font-family: "Neucha", sans-serif;
+        font-weight: 400;
+        font-size: 39px;
+        color: #fff;
+        padding: 23px 66px;
+        border: none;
+        border-radius: 50px;
+        background-color: #E2461F;
+        cursor: pointer;
+        max-height: 80px;
+
+    }
+
+}
