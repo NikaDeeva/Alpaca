@@ -527,4 +527,141 @@ img {
   font-size: 39px;
   font-weight: 400;
 }
+
+.choose {
+  padding: 50px 80px 100px;
+}
+
+.choose__title-wrap {
+  background-image: url("title-back@1x.0b3936ba.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 56px;
+  padding-bottom: 92px;
+}
+
+.choose__title {
+  color: #333;
+  text-align: center;
+  font-family: Neucha, sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.choose__list {
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+}
+
+.choose__item {
+  background: #fafafa;
+  margin-top: 10px;
+  box-shadow: 0 2px 6px #e5e5e5;
+}
+
+.choose__image {
+  max-width: 416px;
+}
+
+.choose__characteristics {
+  margin-top: 12px;
+  margin-bottom: 36px;
+  margin-left: 14px;
+}
+
+.choose__subitem {
+  padding-bottom: 10px;
+  display: flex;
+}
+
+.choose__charact {
+  color: #333;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.choose__data {
+  color: #333;
+  padding-left: 3px;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.choose__link-wrap {
+  background-image: url("choose-back@1x.54b5e03f.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 288px;
+  justify-content: center;
+  display: flex;
+}
+
+.choose__link {
+  text-align: center;
+  color: #333;
+  padding-top: 24px;
+  padding-bottom: 34px;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 140%;
+  text-decoration: underline;
+}
+
+.choose__btn-wrap {
+  justify-content: center;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.choose__button {
+  text-align: center;
+  color: #fff;
+  background-color: #e2461f;
+  border: none;
+  border-radius: 41px;
+  margin: 0 auto;
+  padding: 17px 48px;
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.gallery {
+  padding-bottom: 140px;
+}
+
+.gallery__title-wrap {
+  background-image: url("title-back@1x.0b3936ba.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 56px;
+  padding-bottom: 92px;
+}
+
+.gallery__title {
+  color: #333;
+  text-align: center;
+  font-family: Neucha, sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.gallery__track {
+  justify-content: center;
+  align-items: center;
+  margin-top: 28px;
+  display: flex;
+}
+
+.gallery__image {
+  max-width: 300px;
+}
 /*# sourceMappingURL=Alpaca.9f367d21.css.map */

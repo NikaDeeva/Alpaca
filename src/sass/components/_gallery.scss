@@ -1,0 +1,27 @@
+.gallery{
+    padding-bottom: 140px;
+      &__title-wrap{
+        background-image: url(/src/images/png/title-back@1x.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        padding-top: 56px;
+        padding-bottom: 92px;
+    }
+    &__title{
+        font-weight: 400;
+font-size: 60px;
+color: #333;
+ font-family: "Neucha", sans-serif;
+ text-align: center;
+    }
+    &__track{
+        display: flex;
+        margin-top: 28px;
+        justify-content: center;
+        align-items: center;
+    }
+    &__image{
+        max-width: 300px;
+    }
+}
