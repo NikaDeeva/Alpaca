@@ -686,4 +686,10 @@ img {
 }
 .gallery__image {
   max-width: 300px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }/*# sourceMappingURL=main.css.map */

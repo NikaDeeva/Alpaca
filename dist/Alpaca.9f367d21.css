@@ -664,4 +664,8 @@ img {
 .gallery__image {
   max-width: 300px;
 }
+
+.footer {
+  display: flex;
+}
 /*# sourceMappingURL=Alpaca.9f367d21.css.map */
