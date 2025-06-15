@@ -466,7 +466,14 @@
                 </div>
         </section>
     </main>
-    <footer class="container">
+    <footer class="footer">
+        <div class="footer__grass">
+             <picture class="footer__image">
+                        <source srcset="./images/png/footer-back@1x.png 1x, ./images/png/footer-back@2x.png 2x" type="image/png">
+                        <img src="./images/png/footer-back@1x.png" alt="max">
+                    </picture>
+        </div>
+        <div class="footer__wrapper">
         <div class="footer__logo-wrap">
             <a href="/src/index.html" class="footer__logo">
                 <picture class="footer__logo-icon">
@@ -496,26 +503,27 @@
         <ul class="footer__icons">
             <li class="footer__icon-item">
                 <a href="#" class="footer__icon-link">
-                    <svg>
+                    <svg class="footer__icon">
                         <use href="./images/symbol-defs.svg#icon-twitter"></use>
                     </svg>
                 </a>
             </li>
             <li class="footer__icon-item">
                 <a href="#" class="footer__icon-link">
-                    <svg>
+                    <svg class="footer__icon">
                         <use href="./images/symbol-defs.svg#icon-instagram"></use>
                     </svg>
                 </a>
             </li>
             <li class="footer__icon-item">
                 <a href="#" class="footer__icon-link">
-                    <svg>
+                    <svg class="footer__icon">
                         <use href="./images/symbol-defs.svg#icon-facebook"></use>
                     </svg>
                 </a>
             </li>
         </ul>
+        </div>
     </footer>
     
     <script src="./index.js" type="module"></script>

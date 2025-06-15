@@ -527,7 +527,6 @@ img {
   font-size: 39px;
   font-weight: 400;
 }
-<<<<<<< HEAD
 
 .choose {
   padding: 50px 80px 100px;
@@ -667,8 +666,69 @@ img {
 }
 
 .footer {
+  padding-top: 140px;
+  position: relative;
+}
+
+.footer__grass {
+  width: 100%;
+  position: absolute;
+  bottom: 202px;
+}
+
+.footer__wrapper {
+  z-index: 999;
+  background-color: #f1b400;
+  justify-content: space-around;
+  padding-bottom: 45px;
   display: flex;
 }
-=======
->>>>>>> 87a7dece336aa405e744b003bf126b5d78f3f7c8
+
+.footer__logo {
+  max-width: 90px;
+}
+
+.footer__item {
+  padding-bottom: 21px;
+}
+
+.footer__link {
+  color: #333;
+  font-family: Montserrat, sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.footer__link:hover {
+  text-decoration: underline;
+}
+
+.footer__contacts-title {
+  color: #333;
+  margin-bottom: 13px;
+  font-family: Montserrat, sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.footer__phone, .footer__mail {
+  color: #333;
+  margin-bottom: 13px;
+  font-family: Montserrat, sans-serif;
+  font-size: 26px;
+  font-weight: 300;
+}
+
+.footer__icon-item {
+  margin-right: 50px;
+}
+
+.footer__icons {
+  justify-content: space-between;
+  display: flex;
+}
+
+.footer__icon {
+  max-width: 52px;
+}
 /*# sourceMappingURL=Alpaca.9f367d21.css.map */

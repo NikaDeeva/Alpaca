@@ -539,7 +539,6 @@ img {
   background-color: #E2461F;
   cursor: pointer;
   max-height: 80px;
-<<<<<<< HEAD
 }
 
 .choose {
@@ -690,9 +689,64 @@ img {
 }
 
 .footer {
+  position: relative;
+  padding-top: 140px;
+}
+.footer__grass {
+  position: absolute;
+  bottom: 202px;
+  width: 100%;
+}
+.footer__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-=======
->>>>>>> 87a7dece336aa405e744b003bf126b5d78f3f7c8
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  z-index: 999;
+  background-color: #f1b400;
+  padding-bottom: 45px;
+}
+.footer__logo {
+  max-width: 90px;
+}
+.footer__item {
+  padding-bottom: 21px;
+}
+.footer__link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  color: #333;
+}
+.footer__link:hover {
+  text-decoration: underline;
+}
+.footer__contacts-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 13px;
+}
+.footer__phone, .footer__mail {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 13px;
+}
+.footer__icon-item {
+  margin-right: 50px;
+}
+.footer__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer__icon {
+  max-width: 52px;
 }/*# sourceMappingURL=main.css.map */
