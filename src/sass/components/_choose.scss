@@ -84,7 +84,7 @@ padding-bottom: 34px;
     }
     &__button{
         margin: 0 auto;
-        border: none;
+        border: 3px solid #E2461F;
         border-radius: 41px;
         background-color: #E2461F;
         padding: 17px 48px;
@@ -93,5 +93,11 @@ font-weight: 500;
 font-size: 24px;
 text-align: center;
 color: #fff;
+cursor: pointer;
+transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+        &:hover{
+            background-color: transparent;
+            color: #E2461F;
+        }
     }
 }

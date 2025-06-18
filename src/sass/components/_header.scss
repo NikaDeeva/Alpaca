@@ -35,6 +35,7 @@ font-weight: 400;
 font-size: 24px;
 color: #fff;
 cursor: pointer;
+transition-duration: 250ms;
 &:hover{
     text-decoration: underline;
 }
@@ -53,6 +54,7 @@ font-weight: 400;
 font-size: 24px;
 color: #fff;
 cursor: pointer;
+transition-duration: 250ms;
 &:hover{
     text-decoration: underline;
 }
@@ -66,6 +68,7 @@ cursor: pointer;
         color: #fff;
         cursor: pointer;
         margin-top: 15px;
+        transition: text-decoration 250ms ease-in-out;
         &:hover{
             text-decoration: underline;
         }
@@ -99,10 +102,15 @@ font-family: "Neucha", sans-serif;
         font-size: 39px;
         color: #fff;
         padding: 23px 66px;
-        border: none;
+        border: 3px solid #E2461F;
         border-radius: 50px;
         background-color: #E2461F;
         cursor: pointer;
+        transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+        &:hover{
+            background-color: transparent;
+            color: #E2461F;
+        }
     }
     &__video{
         display: flex;

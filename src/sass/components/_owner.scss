@@ -22,10 +22,15 @@ max-width: 448px;
         font-size: 39px;
         color: #fff;
         padding: 18px 66px;
-        border: none;
+        border: 3px solid #E2461F;
         border-radius: 50px;
         background-color: #E2461F;
         max-height: 80px;
         cursor: pointer;
+        transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+        &:hover{
+            background-color: transparent;
+            color: #E2461F;
+        }
     }
 }

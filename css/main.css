@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -90,6 +94,8 @@ img {
   font-size: 24px;
   color: #fff;
   cursor: pointer;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
 }
 .header__link:hover {
   text-decoration: underline;
@@ -115,6 +121,8 @@ img {
   font-size: 24px;
   color: #fff;
   cursor: pointer;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
 }
 .header__lang-btn:hover {
   text-decoration: underline;
@@ -132,6 +140,10 @@ img {
   color: #fff;
   cursor: pointer;
   margin-top: 15px;
+  -webkit-transition: -webkit-text-decoration 250ms ease-in-out;
+  transition: -webkit-text-decoration 250ms ease-in-out;
+  transition: text-decoration 250ms ease-in-out;
+  transition: text-decoration 250ms ease-in-out, -webkit-text-decoration 250ms ease-in-out;
 }
 .header__phone-wrap:hover {
   text-decoration: underline;
@@ -167,10 +179,16 @@ img {
   font-size: 39px;
   color: #fff;
   padding: 23px 66px;
-  border: none;
+  border: 3px solid #E2461F;
   border-radius: 50px;
   background-color: #E2461F;
   cursor: pointer;
+  -webkit-transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+}
+.header__button:hover {
+  background-color: transparent;
+  color: #E2461F;
 }
 .header__video {
   display: -webkit-box;
@@ -307,11 +325,17 @@ img {
   font-size: 39px;
   color: #fff;
   padding: 18px 66px;
-  border: none;
+  border: 3px solid #E2461F;
   border-radius: 50px;
   background-color: #E2461F;
   max-height: 80px;
   cursor: pointer;
+  -webkit-transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+}
+.owner__button:hover {
+  background-color: transparent;
+  color: #E2461F;
 }
 
 .benefits {
@@ -534,11 +558,17 @@ img {
   font-size: 39px;
   color: #fff;
   padding: 23px 66px;
-  border: none;
+  border: 3px solid #E2461F;
   border-radius: 50px;
   background-color: #E2461F;
   cursor: pointer;
   max-height: 80px;
+  -webkit-transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+}
+.buy__button:hover {
+  background-color: transparent;
+  color: #E2461F;
 }
 
 .choose {
@@ -643,7 +673,7 @@ img {
 }
 .choose__button {
   margin: 0 auto;
-  border: none;
+  border: 3px solid #E2461F;
   border-radius: 41px;
   background-color: #E2461F;
   padding: 17px 48px;
@@ -652,6 +682,13 @@ img {
   font-size: 24px;
   text-align: center;
   color: #fff;
+  cursor: pointer;
+  -webkit-transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+}
+.choose__button:hover {
+  background-color: transparent;
+  color: #E2461F;
 }
 
 .gallery {
