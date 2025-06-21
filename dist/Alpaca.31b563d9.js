@@ -160,11 +160,11 @@
       });
     }
   }
-})({"5j6Kf":[function(require,module,exports,__globalThis) {
+})({"9zXHE":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
-var HMR_SERVER_PORT = 1234;
+var HMR_SERVER_PORT = 50914;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "439701173a9199ea";
 var HMR_USE_SSE = false;
@@ -676,6 +676,19 @@ var _mainScss = require("./sass/main.scss");
 },{"./js/alpaca":"j5yZV","./js/form":"izK3G","./js/slider":"9eRXX","./js/language":"gt5i0","./sass/main.scss":"dFl68"}],"j5yZV":[function(require,module,exports,__globalThis) {
 
 },{}],"izK3G":[function(require,module,exports,__globalThis) {
+(()=>{
+    const refs = {
+        openModalBtn: document.querySelector("[data-modal-open]"),
+        closeModalBtn: document.querySelector("[data-modal-close]"),
+        modal: document.querySelector("[data-modal]")
+    };
+    refs.openModalBtn.addEventListener("click", toggleModal);
+    refs.closeModalBtn.addEventListener("click", toggleModal);
+    function toggleModal() {
+        refs.modal.classList.toggle("is-hidden");
+        document.body.classList.toggle("no-scroll");
+    }
+})();
 
 },{}],"9eRXX":[function(require,module,exports,__globalThis) {
 
@@ -811,6 +824,6 @@ function turnUa() {
 }
 ua.addEventListener('click', turnUa);
 
-},{}],"dFl68":[function() {},{}]},["5j6Kf","a0t4e"], "a0t4e", "parcelRequire55a0", {})
+},{}],"dFl68":[function() {},{}]},["9zXHE","a0t4e"], "a0t4e", "parcelRequire55a0", {})
 
 //# sourceMappingURL=Alpaca.31b563d9.js.map

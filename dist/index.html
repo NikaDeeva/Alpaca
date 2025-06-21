@@ -242,7 +242,41 @@
         </section>
         <section class="buy">
             <h2 class="buy__title">Hurry up to buy your pet at the best price!</h2>
-            <button class="buy__button">Buy alpaca</button>
+            <button class="buy__button" type="button" data-modal-open="">Buy alpaca</button>
+            <div class="backdrop is-hidden" data-modal="">
+                <div class="modal">
+                    <button class="modal__close" data-modal-close="" type="button">
+                        <svg class="modal__cross"><use xlink:href="#icon-cross"></use></svg>
+                    </button>
+                    <div class="modal__title-wrap">
+                    <h3 class="modal__title">Fill the form</h3>
+                    </div>
+                        <form class="modal__form">
+                        <label class="modal__label" for="name">Name
+                            <input class="modal__input" type="text" name="name" id="name">
+                        </label>
+                        <label class="modal__label" for="tel">Phone
+                            <input class="modal__input" type="tel" name="tel" id="tel">
+                        </label>
+                        <label class="modal__label" for="mail">Email
+                            <input class="modal__input" type="email" name="email" id="mail">
+                        </label>
+                        <label class="modal__label" for="comment">Comment
+                             <textarea class="modal__comment" name="comment" id="comment" rows="10" placeholder="Write a comment"></textarea>
+                        </label>
+                    <label class="modal__policy">
+                        <input type="checkbox">
+                        <span class="modal__policy-text">I accept and agree with
+                            <a href="#" class="modal__policy-link">privacy and policy</a>
+                        </span>
+                    </label>
+                      
+                </form>
+                <div class="modal__btn-wrap">
+                        <button type="submit" class="modal__send">Send</button>
+                        </div>
+                </div>
+            </div>
         </section>
         <section class="choose" id="choose">
             <div class="choose__title-wrap">
